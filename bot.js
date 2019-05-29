@@ -19,7 +19,7 @@ client.on('ready', () => {
 
 
 client.on('ready', () => {                           
-client.user.setGame(`Silver System | $help`);                                                                                                                                                                                                                                                                                                                                                                                                                            
+client.user.setGame(`KaRoOn_Bot | $help`);                                                                                                                                                                                                                                                                                                                                                                                                                            
 });
 
 
@@ -33,7 +33,7 @@ client.on('ready', () => {
 
 
 client.on('guildMemberAdd', member =>{
-    member.addRole(member.guild.roles.find(x => x.name === '« Silver Member'), "Auto-Role")
+    member.addRole(member.guild.roles.find(x => x.name === 'مشترك'), "Auto-Role")
 });
 
 
@@ -47,7 +47,7 @@ client.on('guildMemberAdd', member =>{
 
 client.on('message', msg => {
   if(msg.content === 'ارحب')
-  msg.reply('**🕊Welcome To Silver|نتمنى لك أفضل الأوقات معنا🔱**')
+  msg.reply('**🕊Welcome To KaRoOn|نتمنى لك أفضل الأوقات معنا🔱**')
 });
 
 
@@ -95,7 +95,7 @@ client.on('message',async Epic => {
       SPEAK: false
     });
     setInterval(() => {
-      c.setName(` SC Voice [ ${Epic.guild.members.filter(m => m.voiceChannel).size} ]`)
+      c.setName(` Ka Voice [ ${Epic.guild.members.filter(m => m.voiceChannel).size} ]`)
     },1000);
   });
   }
@@ -154,7 +154,7 @@ if(message.author.bot) return;
             .setTitle('USERS & SERVERS')
                   .addField('**SERVERS**' , `[${client.guilds.size}]` , true)
                   .addField('**USERS**' , `[${client.users.size}]` , true)
-                  .setFooter('Silver Community©')
+                  .setFooter('karoon Community©')
     })
 }
 });
@@ -336,9 +336,9 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setDescription(`
-─════════════ {✯Silver_Community©✯} ════════════─
-CopyRight: By Silver Community.
-─════════════ {✯Silver_Community©✯} ════════════─
+─════════════ {✯karoon_Community©✯} ════════════─
+CopyRight: By Youtube KaroOn Community.
+─════════════ {✯karoon_Community©✯} ════════════─
       `)
    message.channel.sendEmbed(embed)
     }
