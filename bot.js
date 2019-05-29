@@ -32,10 +32,6 @@ client.on('ready', () => {
 });
 
 
-client.on('guildMemberAdd', member =>{
-    member.addRole(member.guild.roles.find(x => x.name === 'مشترك'), "Auto-Role")
-});
-
 
 
 
